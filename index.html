@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barcelona Debating Society — Club de Debat de la UPF</title>
+  <meta name="description" content="Barcelona Debating Society (BDS): el club de debat parlamentari britànic de la UPF. Aprèn a parlar en públic, argumentar i pensar de manera crítica dedicant-hi només una tarda a la setmana." />
+  <meta name="theme-color" content="#b01f2d" />
+
+  <meta property="og:title" content="Barcelona Debating Society — Club de Debat de la UPF" />
+  <meta property="og:description" content="Què és una universitat sense el seu club de debat? Aprèn a debatre en format Parlament Britànic. Curs introductori des del 8 d'octubre." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/logo.svg" />
+
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#hero" class="brand" aria-label="Inici — Barcelona Debating Society">
+        <img class="brand__img" src="assets/logo-full.svg" alt="Barcelona Debating Society" />
+      </a>
+
+      <nav class="nav__links" aria-label="Navegació principal">
+        <a href="#about" data-i18n="nav.about">Qui som</a>
+        <a href="#debat" data-i18n="nav.debat">El debat BP</a>
+        <a href="#mocions" data-i18n="nav.mocions">Mocions</a>
+        <a href="#vida" data-i18n="nav.vida">La vida BDS</a>
+        <a href="#calendari" data-i18n="nav.calendari">Calendari</a>
+        <a href="#curs" class="nav__cta" data-i18n="nav.apunta">Apunta't</a>
+        <span class="lang" role="group" aria-label="Idioma">
+          <button class="lang__btn" data-lang="ca">CA</button>
+          <button class="lang__btn" data-lang="es">ES</button>
+          <button class="lang__btn" data-lang="en">EN</button>
+        </span>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Obrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <div class="hero__logo"><img class="hero__logo-img" src="assets/logo-full.svg" alt="Barcelona Debating Society" /></div>
+      <p class="hero__eyebrow" data-i18n="hero.eyebrow">Club de debat de la Universitat Pompeu Fabra</p>
+      <h1 class="hero__title" data-i18n="hero.title">Què és una universitat<br />sense el seu club de debat?</h1>
+      <p class="hero__lead" data-i18n="hero.lead">
+        Som la <strong>Barcelona Debating Society</strong>. Aprenem a parlar en públic, a
+        argumentar i a pensar de manera crítica debatent en format <strong>Parlament Britànic</strong>
+        sobre els temes que mouen el món.
+      </p>
+      <div class="hero__actions">
+        <a href="#curs" class="btn btn--primary" data-i18n="hero.btnApunta">Apunta't al curs introductori</a>
+        <a href="#debat" class="btn btn--ghost" data-i18n="hero.btnDebat">Com funciona el debat BP?</a>
+      </div>
+      <div class="hero__stats">
+        <div><span class="stat__num">10+</span><span class="stat__lbl" data-i18n="hero.s1">anys debatint</span></div>
+        <div><span class="stat__num">1</span><span class="stat__lbl" data-i18n="hero.s2">tarda/setmana</span></div>
+        <div><span class="stat__num">3</span><span class="stat__lbl" data-i18n="hero.s3">idiomes: CAT · ESP · ENG</span></div>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Continua">↓</a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker" data-i18n="about.kicker">Qui som</span>
+        <h2 data-i18n="about.h2">Aprèn a parlar sense que et robi la vida</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__text">
+          <p class="lead" data-i18n="about.p1">
+            A diferència del debat acadèmic (que demana hores i hores de feina a casa),
+            el <strong>Parlament Britànic</strong> es prepara sobre la marxa. Et donem el tema
+            <strong>15 minuts abans</strong> de debatre i, <strong>sense internet ni cap informació
+            privilegiada</strong>, amb el que saps del món i una mica de tècnica ja estàs a punt.
+          </p>
+          <p data-i18n="about.p2">
+            És el format <strong>perfecte per a qui té ganes d'aprendre i de discutir,
+            però poc temps</strong>: pots aprendre a parlar en públic dedicant-hi
+            <strong>només una tarda a la setmana</strong>, sense deures ni investigacions infinites.
+            I és el <strong>millor debat per aprendre a improvisar</strong>, a defensar qualsevol
+            posició i a perdre la por a parlar sense un suport digital al darrere.
+          </p>
+          <p data-i18n="about.p3">
+            Però la BDS és molt més que debatre. Som un <strong>grup d'amics</strong>:
+            fem excursions a la muntanya, anem a la platja, organitzem tardes de jocs de
+            taula i celebrem cada torneig com toca. Aquí es ve a aprendre… i a quedar-se.
+          </p>
+          <a href="#curs" class="btn btn--primary" data-i18n="about.btn">Vull provar-ho</a>
+        </div>
+        <ul class="about__cards">
+          <li class="feat">
+            <span class="feat__icon" aria-hidden="true">🗣️</span>
+            <h3 data-i18n="about.f1t">Parla en públic</h3>
+            <p data-i18n="about.f1p">Perd la por a l'escenari i aprèn a defensar les teves idees amb seguretat.</p>
+          </li>
+          <li class="feat">
+            <span class="feat__icon" aria-hidden="true">🧠</span>
+            <h3 data-i18n="about.f2t">Pensa críticament</h3>
+            <p data-i18n="about.f2p">Analitza qualsevol tema des de tots els angles i construeix arguments sòlids.</p>
+          </li>
+          <li class="feat">
+            <span class="feat__icon" aria-hidden="true">⏱️</span>
+            <h3 data-i18n="about.f3t">Poc temps</h3>
+            <p data-i18n="about.f3p">Una tarda a la setmana, sense feina a casa: el debat que encaixa amb la vida universitària.</p>
+          </li>
+          <li class="feat">
+            <span class="feat__icon" aria-hidden="true">🤝</span>
+            <h3 data-i18n="about.f4t">Bon ambient</h3>
+            <p data-i18n="about.f4p">Coneixeràs gent de tota la universitat amb les mateixes ganes que tu.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEBAT BP ============ -->
+  <section class="section section--alt" id="debat">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker" data-i18n="debat.kicker">Formació</span>
+        <h2 data-i18n="debat.h2">Com funciona el debat BP</h2>
+        <p class="section__sub" data-i18n="debat.sub">
+          El <strong>Parlament Britànic</strong> (BP) enfronta <strong>4 equips de 2 persones</strong>:
+          dues defensen la moció (Govern) i dues hi estan en contra (Oposició). Cada
+          parella ocupa una <em>cambra</em> amb un rol propi.
+        </p>
+      </div>
+
+      <div class="bp" id="bp">
+        <div class="bp__scheme">
+          <div class="bp__head">
+            <span class="bp__side bp__side--gov" data-i18n="debat.gov">GOVERN</span>
+            <span class="bp__side bp__side--opo" data-i18n="debat.opo">OPOSICIÓ</span>
+          </div>
+
+          <div class="bp__chamber">
+            <span class="bp__chamber-tag" data-i18n="debat.alta">Cambra Alta</span>
+            <div class="bp__grid">
+              <button class="bp__pos bp__pos--gov" data-role="0"><span class="bp__n">1</span><span data-i18n="bp.pos1">Primer Ministre</span></button>
+              <button class="bp__pos bp__pos--opo" data-role="1"><span class="bp__n">2</span><span data-i18n="bp.pos2">Líder de l'Oposició</span></button>
+              <button class="bp__pos bp__pos--gov" data-role="2"><span class="bp__n">3</span><span data-i18n="bp.pos3">Vice Primer Ministre</span></button>
+              <button class="bp__pos bp__pos--opo" data-role="3"><span class="bp__n">4</span><span data-i18n="bp.pos4">Vice Líder de l'Oposició</span></button>
+            </div>
+          </div>
+
+          <div class="bp__chamber">
+            <span class="bp__chamber-tag" data-i18n="debat.baixa">Cambra Baixa</span>
+            <div class="bp__grid">
+              <button class="bp__pos bp__pos--gov" data-role="4"><span class="bp__n">5</span><span data-i18n="bp.pos5">Extensionista del Govern</span></button>
+              <button class="bp__pos bp__pos--opo" data-role="5"><span class="bp__n">6</span><span data-i18n="bp.pos6">Extensionista de l'Oposició</span></button>
+              <button class="bp__pos bp__pos--gov" data-role="6"><span class="bp__n">7</span><span data-i18n="bp.pos7">Fuet de Govern</span></button>
+              <button class="bp__pos bp__pos--opo" data-role="7"><span class="bp__n">8</span><span data-i18n="bp.pos8">Fuet d'Oposició</span></button>
+            </div>
+          </div>
+
+          <p class="bp__note" data-i18n="debat.note">El número de cada rol marca l'<strong>ordre de participació</strong>. Cada orador té un torn de <strong>7 minuts</strong>.</p>
+          <p class="bp__hint" data-i18n="debat.hint">👆 Clica cada posició per veure què fa</p>
+        </div>
+
+        <aside class="bp__detail" id="bpDetail" aria-live="polite"></aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MOCIONS ============ -->
+  <section class="section" id="mocions">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker" data-i18n="moc.kicker">El tema del debat</span>
+        <h2 data-i18n="moc.h2">Exemples de mocions</h2>
+        <p class="section__sub" data-i18n="moc.sub">
+          La <strong>moció</strong> és el tema del debat. Comença per <strong>AC</strong>
+          («Aquesta Casa») o <strong>ACCQ</strong> («Aquesta Casa Creu Que…»).
+          Aquestes són algunes de les que hem debatut:
+        </p>
+      </div>
+
+      <div class="carousel carousel--moc" id="mocCarousel" aria-roledescription="carrusel" aria-label="Mocions">
+        <div class="carousel__viewport"><div class="carousel__track" id="mocTrack"></div></div>
+        <button class="carousel__btn carousel__btn--prev" id="mocPrev" aria-label="Anterior">‹</button>
+        <button class="carousel__btn carousel__btn--next" id="mocNext" aria-label="Següent">›</button>
+        <div class="carousel__dots" id="mocDots" role="tablist" aria-label="Selecciona una moció"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VIDA BDS (collage + social) ============ -->
+  <section class="section section--alt" id="vida">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker" data-i18n="vida.kicker">Més enllà del faristol</span>
+        <h2 data-i18n="vida.h2">No només debatim: som una família</h2>
+        <p class="section__sub" data-i18n="vida.sub">
+          El millor de la BDS passa sovint quan baixem de l'escenari. Excursions, platja,
+          jocs de taula, cervesades… i molt bon ambient.
+        </p>
+      </div>
+
+      <!-- Graella de fotos grans. Clica una foto per veure-la en gran.
+           Desa les fotos com a assets/gallery/1.jpg … 9.jpg. -->
+      <div class="collage">
+        <figure class="collage__item"><img src="assets/gallery/1.jpg" loading="lazy" data-ph="Foto 1" alt="Foto 1 de la BDS" /></figure>
+        <figure class="collage__item"><img src="assets/gallery/2.jpg" loading="lazy" data-ph="Foto 2" alt="Foto 2 de la BDS" /></figure>
+        <figure class="collage__item"><img src="assets/gallery/3.jpg" loading="lazy" data-ph="Foto 3" alt="Foto 3 de la BDS" /></figure>
+        <figure class="collage__item"><img src="assets/gallery/4.jpg" loading="lazy" data-ph="Foto 4" alt="Foto 4 de la BDS" /></figure>
+        <figure class="collage__item"><img src="assets/gallery/5.jpg" loading="lazy" data-ph="Foto 5" alt="Foto 5 de la BDS" /></figure>
+        <figure class="collage__item"><img src="assets/gallery/6.jpg" loading="lazy" data-ph="Foto 6" alt="Foto 6 de la BDS" /></figure>
+        <figure class="collage__item"><img src="assets/gallery/7.jpg" loading="lazy" data-ph="Foto 7" alt="Foto 7 de la BDS" /></figure>
+        <figure class="collage__item"><img src="assets/gallery/8.jpg" loading="lazy" data-ph="Foto 8" alt="Foto 8 de la BDS" /></figure>
+        <figure class="collage__item"><img src="assets/gallery/9.jpg" loading="lazy" data-ph="Foto 9" alt="Foto 9 de la BDS" /></figure>
+      </div>
+
+      <div class="social social--row">
+        <div class="social__item"><span aria-hidden="true">🏔️🏖️</span><h3 data-i18n="vida.s1t">Excursions i platja</h3><p data-i18n="vida.s1p">Sortides a la muntanya per desconnectar i dies de platja: Barcelona té mar i nosaltres l'aprofitem.</p></div>
+        <div class="social__item"><span aria-hidden="true">🎲🍺</span><h3 data-i18n="vida.s2t">Jocs i cervesades</h3><p data-i18n="vida.s2p">Tardes de jocs de taula i cervesades per fer pinya més enllà dels debats.</p></div>
+        <div class="social__item"><span aria-hidden="true">🍽️🪩</span><h3 data-i18n="vida.s3t">Sopars i festes</h3><p data-i18n="vida.s3p">Celebrem cada torneig i cada victòria com es mereix.</p></div>
+      </div>
+
+      <p class="gallery__note">
+        <a href="https://www.instagram.com/bcndebatingsociety/" target="_blank" rel="noopener" class="btn btn--ghost btn--sm" data-i18n="vida.ig">📸 Més al nostre Instagram</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ CALENDARI ============ -->
+  <section class="section" id="calendari">
+    <div class="container">
+      <div class="section__head">
+        <span class="kicker" data-i18n="cal.kicker">El curs 2025–26</span>
+        <h2 data-i18n="cal.h2">El nostre calendari</h2>
+      </div>
+
+      <div class="cal-tbd">
+        <span class="cal-tbd__icon" aria-hidden="true">🗓️</span>
+        <h3 data-i18n="cal.tbdt">Calendari en preparació</h3>
+        <p data-i18n="cal.tbd">Els esdeveniments d'aquest any encara s'estan tancant. A confirmar per al curs 2026/27.</p>
+      </div>
+
+      <div class="flagship" id="torneig-propi">
+        <div class="flagship__badge" data-i18n="flag.badge">Novetat · 3r trimestre</div>
+        <h3 class="flagship__title" data-i18n="flag.title">El nostre primer torneig propi</h3>
+        <p class="flagship__lead" data-i18n="flag.lead">
+          Aquest any fem un pas endavant: la BDS organitzarà el <strong>seu propi torneig</strong>.
+          Volem portar a la UPF equips de tot el país per a un cap de setmana de debat del més alt nivell,
+          amb la nostra empremta i la nostra hospitalitat.
+        </p>
+        <p class="flagship__contact" data-i18n="flag.contact">
+          📩 Vols <strong>participar-hi</strong>? Escriu-nos a
+          <a href="mailto:barcelonadebating@gmail.com">barcelonadebating@gmail.com</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CURS / FORMULARI ============ -->
+  <section class="section section--cta" id="curs">
+    <div class="container curs">
+      <div class="curs__info">
+        <span class="kicker kicker--light" data-i18n="curs.kicker">Curs introductori</span>
+        <h2 data-i18n="curs.h2">Comença a debatre el 8 d'octubre</h2>
+        <p class="lead" data-i18n="curs.lead">
+          Obrim les portes a tothom qui vulgui aprendre, sense experiència prèvia.
+          T'ensenyem el format i la tècnica i et llancem a debatre de seguida.
+        </p>
+        <ul class="curs__facts">
+          <li data-i18n="curs.f1"><strong>📅 Formació:</strong> 4 dijous, del 8 al 29 d'octubre de 2025, de 18 a 20 h</li>
+          <li data-i18n="curs.f2"><strong>🥐 Benvinguda:</strong> el primer dijous (8 d'octubre) fem un berenar a les 17:30</li>
+          <li data-i18n="curs.f3"><strong>🎓 Crèdits:</strong> dona 1 crèdit als estudiants de la UPF</li>
+          <li data-i18n="curs.f4"><strong>📍 On:</strong> campus de la Ciutadella (UPF), Barcelona</li>
+          <li data-i18n="curs.f5"><strong>💸 Preu:</strong> 20 €</li>
+          <li data-i18n="curs.f6"><strong>🙌 Obert a tothom:</strong> no cal ser estudiant de la UPF per venir a debatre</li>
+        </ul>
+        <p class="curs__help" data-i18n="curs.help">
+          En cas de dubte, escriu-nos a
+          <a href="mailto:barcelonadebating@gmail.com">barcelonadebating@gmail.com</a>.
+        </p>
+      </div>
+
+      <div class="curs__form">
+        <h3 class="curs__formtitle" data-i18n="curs.formtitle">Apunta't en un minut</h3>
+        <div class="curs__embed">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdWuZrS6t-dTm-dcgF00-hPn0Y4P7NqFB9AJQL4j9kWhEMl9A/viewform?embedded=true"
+            class="curs__iframe" title="Formulari d'inscripció" loading="lazy">Carregant…</iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="contacte">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img class="footer__logo" src="assets/logo-full.svg" alt="Barcelona Debating Society" />
+        <p data-i18n="footer.tagline">Club de debat de la Universitat Pompeu Fabra</p>
+      </div>
+      <nav class="footer__links" aria-label="Peu de pàgina">
+        <a href="#about" data-i18n="nav.about">Qui som</a>
+        <a href="#debat" data-i18n="nav.debat">El debat BP</a>
+        <a href="#calendari" data-i18n="nav.calendari">Calendari</a>
+        <a href="#curs" data-i18n="nav.apunta">Apunta't</a>
+      </nav>
+      <div class="footer__social">
+        <a href="mailto:barcelonadebating@gmail.com">barcelonadebating@gmail.com</a>
+        <a href="https://www.instagram.com/bcndebatingsociety/" target="_blank" rel="noopener" aria-label="Instagram">Instagram ↗</a>
+        <a href="https://www.facebook.com/BarcelonaDebating/" target="_blank" rel="noopener" aria-label="Facebook">Facebook ↗</a>
+        <a href="https://www.linkedin.com/company/barcelonadebatingsociety" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn ↗</a>
+      </div>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Barcelona Debating Society · UPF</p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
