@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 192" role="img" aria-label="Barcelona Debating Society">
+  <!-- three concentric sound-wave arcs (left), centred on x=94 -->
+  <g fill="none" stroke="currentColor" stroke-width="9.5" stroke-linecap="round">
+    <path d="M94 26  A72 72 0 0 0 94 170"/>
+    <path d="M94 44  A54 54 0 0 0 94 152"/>
+    <path d="M94 62  A36 36 0 0 0 94 134"/>
+  </g>
+  <!-- solid right-half speech bubble with a short tail at ~4-5 o'clock -->
+  <path fill="currentColor" d="M106 26
+    A72 72 0 0 1 168 134
+    L150 178
+    L132 162
+    L106 170
+    Z"/>
+</svg>
