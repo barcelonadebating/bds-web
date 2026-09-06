@@ -10,7 +10,7 @@ window.I18N = {
     "nav.about": "Qui som", "nav.debat": "El debat BP", "nav.mocions": "Mocions",
     "nav.vida": "La vida BDS", "nav.calendari": "Calendari", "nav.apunta": "Apunta't",
 
-    "hero.eyebrow": "Club de debat de la Universitat Pompeu Fabra",
+    "hero.eyebrow": "Club de debat BP de la Universitat Pompeu Fabra",
     "hero.title": "Què és una universitat<br>sense el seu club de debat?",
     "hero.lead": "Som la <strong>Barcelona Debating Society</strong>. Aprenem a parlar en públic, a argumentar i a pensar de manera crítica debatent en format <strong>Parlament Britànic</strong> sobre els temes que mouen el món.",
     "hero.btnApunta": "Apunta't al curs introductori",
@@ -52,7 +52,7 @@ window.I18N = {
     "vida.s3t": "Sopars i festes", "vida.s3p": "Celebrem cada torneig i cada victòria com es mereix.",
     "vida.ig": "📸 Més al nostre Instagram",
 
-    "cal.kicker": "El curs 2025–26",
+    "cal.kicker": "El curs 2026–27",
     "cal.h2": "El nostre calendari",
     "cal.sub": "Un any ple de debat dins i fora de la UPF.",
     "cal.p1t": "Col·laboracions amb universitats", "cal.p1p": "Entrenaments i debats conjunts amb clubs d'altres universitats per créixer plegats i teixir xarxa.",
@@ -62,6 +62,13 @@ window.I18N = {
     "cal.p5t": "CEMUDE", "cal.p5p": "L'oportunitat de competir al campionat de debat en espanyol amb universitats d'arreu. Un repte major per a qui vulgui anar més enllà.",
     "cal.d1": "Tot el curs", "cal.d2": "Tot el curs", "cal.d3": "15–16 nov. 2025", "cal.d4": "21–22 feb. 2026", "cal.d5": "abr. 2026",
     "cal.tbdt": "Calendari en preparació", "cal.tbd": "Els esdeveniments d'aquest any encara s'estan tancant.",
+    "cal.e1d": "14 set.", "cal.e1t": "Benvinguda", "cal.e1s": "Poblenou · 10:30–14:30",
+    "cal.e2d": "15 set.", "cal.e2t": "Benvinguda", "cal.e2s": "Poblenou · 10:00–14:15",
+    "cal.e3d": "16 set.", "cal.e3t": "Benvinguda", "cal.e3s": "Ciutadella · 10:15–15:30",
+    "cal.e4d": "17 set.", "cal.e4t": "Benvinguda", "cal.e4s": "Ciutadella · 10:00–15:00",
+    "cal.e5d": "1 oct.", "cal.e5t": "1r debat del curs", "cal.e5s": "1r trimestre",
+    "cal.e6d": "8 oct.", "cal.e6t": "Inici del curs introductori", "cal.e6s": "1r trimestre",
+    "cal.e7d": "7 nov.", "cal.e7t": "Lliga interna", "cal.e7s": "1r trimestre",
 
     "flag.badge": "Novetat · 3r trimestre",
     "flag.title": "El nostre primer torneig propi",
@@ -74,7 +81,7 @@ window.I18N = {
     "curs.kicker": "Curs introductori",
     "curs.h2": "Comença a debatre el 8 d'octubre",
     "curs.lead": "Obrim les portes a tothom qui vulgui aprendre, sense experiència prèvia. T'ensenyem el format i la tècnica i et llancem a debatre de seguida.",
-    "curs.f1": "<strong>📅 Formació:</strong> 4 dijous (8, 15, 22 i 29 d'octubre), de 18 a 20 h. Acabem el curs amb un torneig final dels participants el <strong>dissabte 31 d'octubre</strong>.",
+    "curs.f1": "<strong>📅 Formació:</strong> 4 dijous (8, 15, 22 i 29 d'octubre), de 18 a 20 h. Acabem el curs amb un torneig final dels participants el <strong>7 de novembre</strong>.",
     "curs.f2": "<strong>🥐 Benvinguda:</strong> el primer dijous (8 d'octubre) fem un berenar a les 17:30",
     "curs.f3": "<strong>🎓 Crèdits:</strong> el curs introductori dona 1 crèdit als estudiants de la UPF. I un cop dins del club pots fer el curs mitjà i aconseguir-ne un segon.",
     "curs.f4": "<strong>📍 On:</strong> campus de la Ciutadella (UPF), Barcelona",
@@ -83,7 +90,7 @@ window.I18N = {
     "curs.help": "En cas de dubte, escriu-nos a <a href=\"mailto:barcelonadebating@gmail.com\">barcelonadebating@gmail.com</a>.",
     "curs.formtitle": "Apunta't en un minut",
 
-    "footer.tagline": "Club de debat de la Universitat Pompeu Fabra"
+    "footer.tagline": "Club de debat BP de la Universitat Pompeu Fabra"
   },
 
   /* ============================ CASTELLANO ============================ */
@@ -91,7 +98,7 @@ window.I18N = {
     "nav.about": "Quiénes somos", "nav.debat": "El debate BP", "nav.mocions": "Mociones",
     "nav.vida": "Vida BDS", "nav.calendari": "Calendario", "nav.apunta": "Apúntate",
 
-    "hero.eyebrow": "Club de debate de la Universidad Pompeu Fabra",
+    "hero.eyebrow": "Club de debate BP de la Universidad Pompeu Fabra",
     "hero.title": "¿Qué es una universidad<br>sin su club de debate?",
     "hero.lead": "Somos la <strong>Barcelona Debating Society</strong>. Aprendemos a hablar en público, a argumentar y a pensar de manera crítica debatiendo en formato <strong>Parlamento Británico</strong> sobre los temas que mueven el mundo.",
     "hero.btnApunta": "Apúntate al curso introductorio",
@@ -133,7 +140,7 @@ window.I18N = {
     "vida.s3t": "Cenas y fiestas", "vida.s3p": "Celebramos cada torneo y cada victoria como se merece.",
     "vida.ig": "📸 Más en nuestro Instagram",
 
-    "cal.kicker": "El curso 2025–26",
+    "cal.kicker": "El curso 2026–27",
     "cal.h2": "Nuestro calendario",
     "cal.sub": "Un año lleno de debate dentro y fuera de la UPF.",
     "cal.p1t": "Colaboraciones con universidades", "cal.p1p": "Entrenamientos y debates conjuntos con clubes de otras universidades para crecer juntos y tejer red.",
@@ -143,6 +150,13 @@ window.I18N = {
     "cal.p5t": "CEMUDE", "cal.p5p": "La oportunidad de competir en el campeonato de debate en español con universidades de todas partes. Un reto mayor para quien quiera ir más allá.",
     "cal.d1": "Todo el curso", "cal.d2": "Todo el curso", "cal.d3": "15–16 nov. 2025", "cal.d4": "21–22 feb. 2026", "cal.d5": "abr. 2026",
     "cal.tbdt": "Calendario en preparación", "cal.tbd": "Los eventos de este año todavía se están cerrando.",
+    "cal.e1d": "14 sept.", "cal.e1t": "Bienvenida", "cal.e1s": "Poblenou · 10:30–14:30",
+    "cal.e2d": "15 sept.", "cal.e2t": "Bienvenida", "cal.e2s": "Poblenou · 10:00–14:15",
+    "cal.e3d": "16 sept.", "cal.e3t": "Bienvenida", "cal.e3s": "Ciutadella · 10:15–15:30",
+    "cal.e4d": "17 sept.", "cal.e4t": "Bienvenida", "cal.e4s": "Ciutadella · 10:00–15:00",
+    "cal.e5d": "1 oct.", "cal.e5t": "1er debate del curso", "cal.e5s": "1er trimestre",
+    "cal.e6d": "8 oct.", "cal.e6t": "Inicio del curso introductorio", "cal.e6s": "1er trimestre",
+    "cal.e7d": "7 nov.", "cal.e7t": "Liga interna", "cal.e7s": "1er trimestre",
 
     "flag.badge": "Novedad · 3.er trimestre",
     "flag.title": "Nuestro primer torneo propio",
@@ -155,7 +169,7 @@ window.I18N = {
     "curs.kicker": "Curso introductorio",
     "curs.h2": "Empieza a debatir el 8 de octubre",
     "curs.lead": "Abrimos las puertas a todo el que quiera aprender, sin experiencia previa. Te enseñamos el formato y la técnica y te lanzamos a debatir enseguida.",
-    "curs.f1": "<strong>📅 Formación:</strong> 4 jueves (8, 15, 22 y 29 de octubre), de 18 a 20 h. Terminamos el curso con un torneo final de los participantes el <strong>sábado 31 de octubre</strong>.",
+    "curs.f1": "<strong>📅 Formación:</strong> 4 jueves (8, 15, 22 y 29 de octubre), de 18 a 20 h. Terminamos el curso con un torneo final de los participantes el <strong>7 de noviembre</strong>.",
     "curs.f2": "<strong>🥐 Bienvenida:</strong> el primer jueves (8 de octubre) hacemos una merienda a las 17:30",
     "curs.f3": "<strong>🎓 Créditos:</strong> el curso introductorio da 1 crédito a los estudiantes de la UPF. Y una vez dentro del club puedes hacer el curso medio y conseguir un segundo.",
     "curs.f4": "<strong>📍 Dónde:</strong> campus de la Ciutadella (UPF), Barcelona",
@@ -164,7 +178,7 @@ window.I18N = {
     "curs.help": "En caso de duda, escríbenos a <a href=\"mailto:barcelonadebating@gmail.com\">barcelonadebating@gmail.com</a>.",
     "curs.formtitle": "Apúntate en un minuto",
 
-    "footer.tagline": "Club de debate de la Universidad Pompeu Fabra"
+    "footer.tagline": "Club de debate BP de la Universidad Pompeu Fabra"
   },
 
   /* ============================ ENGLISH ============================ */
@@ -172,7 +186,7 @@ window.I18N = {
     "nav.about": "About", "nav.debat": "BP debate", "nav.mocions": "Motions",
     "nav.vida": "BDS life", "nav.calendari": "Calendar", "nav.apunta": "Join us",
 
-    "hero.eyebrow": "Debating club of Universitat Pompeu Fabra",
+    "hero.eyebrow": "BP debating club of Universitat Pompeu Fabra",
     "hero.title": "What is a university<br>without its debating club?",
     "hero.lead": "We are the <strong>Barcelona Debating Society</strong>. We learn to speak in public, to argue and to think critically by debating in <strong>British Parliamentary</strong> format about the issues that move the world.",
     "hero.btnApunta": "Join the intro course",
@@ -214,7 +228,7 @@ window.I18N = {
     "vida.s3t": "Dinners & parties", "vida.s3p": "We celebrate every tournament and every win as it deserves.",
     "vida.ig": "📸 More on our Instagram",
 
-    "cal.kicker": "The 2025–26 year",
+    "cal.kicker": "The 2026–27 year",
     "cal.h2": "Our calendar",
     "cal.sub": "A year full of debate inside and outside the UPF.",
     "cal.p1t": "Collaborations with universities", "cal.p1p": "Joint training sessions and debates with clubs from other universities to grow together and build a network.",
@@ -224,6 +238,13 @@ window.I18N = {
     "cal.p5t": "CEMUDE", "cal.p5p": "The chance to compete in the Spanish-language debating championship with universities from everywhere. A bigger challenge for those who want to go further.",
     "cal.d1": "All year", "cal.d2": "All year", "cal.d3": "15–16 Nov 2025", "cal.d4": "21–22 Feb 2026", "cal.d5": "Apr 2026",
     "cal.tbdt": "Calendar in the works", "cal.tbd": "This year's events are still being finalised.",
+    "cal.e1d": "14 Sep", "cal.e1t": "Welcome", "cal.e1s": "Poblenou · 10:30–14:30",
+    "cal.e2d": "15 Sep", "cal.e2t": "Welcome", "cal.e2s": "Poblenou · 10:00–14:15",
+    "cal.e3d": "16 Sep", "cal.e3t": "Welcome", "cal.e3s": "Ciutadella · 10:15–15:30",
+    "cal.e4d": "17 Sep", "cal.e4t": "Welcome", "cal.e4s": "Ciutadella · 10:00–15:00",
+    "cal.e5d": "1 Oct", "cal.e5t": "First debate of the year", "cal.e5s": "1st term",
+    "cal.e6d": "8 Oct", "cal.e6t": "Intro course begins", "cal.e6s": "1st term",
+    "cal.e7d": "7 Nov", "cal.e7t": "Internal league", "cal.e7s": "1st term",
 
     "flag.badge": "New · 3rd term",
     "flag.title": "Our first own tournament",
@@ -236,7 +257,7 @@ window.I18N = {
     "curs.kicker": "Intro course",
     "curs.h2": "Start debating on 8 October",
     "curs.lead": "We open our doors to anyone who wants to learn, with no prior experience. We teach you the format and the technique and get you debating right away.",
-    "curs.f1": "<strong>📅 Course:</strong> 4 Thursdays (8, 15, 22 and 29 October), 6–8 pm. We finish the course with a final tournament for participants on <strong>Saturday 31 October</strong>.",
+    "curs.f1": "<strong>📅 Course:</strong> 4 Thursdays (8, 15, 22 and 29 October), 6–8 pm. We finish the course with a final tournament for participants on <strong>7 November</strong>.",
     "curs.f2": "<strong>🥐 Welcome:</strong> on the first Thursday (8 October) we host a welcome snack at 5:30 pm",
     "curs.f3": "<strong>🎓 Credits:</strong> the intro course gives 1 credit to UPF students. And once in the club you can take the intermediate course and earn a second one.",
     "curs.f4": "<strong>📍 Where:</strong> Ciutadella campus (UPF), Barcelona",
@@ -245,7 +266,7 @@ window.I18N = {
     "curs.help": "If in doubt, write to us at <a href=\"mailto:barcelonadebating@gmail.com\">barcelonadebating@gmail.com</a>.",
     "curs.formtitle": "Sign up in a minute",
 
-    "footer.tagline": "Debating club of Universitat Pompeu Fabra"
+    "footer.tagline": "BP debating club of Universitat Pompeu Fabra"
   }
 };
 
