@@ -15,7 +15,7 @@
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -49,24 +49,28 @@
 
   <!-- ============ HERO ============ -->
   <section class="hero" id="hero">
-    <div class="hero__bg" aria-hidden="true"></div>
     <div class="container hero__inner">
-      <div class="hero__logo"><img class="hero__logo-img" src="assets/logo-full.svg" alt="Barcelona Debating Society" /></div>
-      <p class="hero__eyebrow" data-i18n="hero.eyebrow">Club de debat de la Universitat Pompeu Fabra</p>
-      <h1 class="hero__title" data-i18n="hero.title">Què és una universitat<br />sense el seu club de debat?</h1>
-      <p class="hero__lead" data-i18n="hero.lead">
-        Som la <strong>Barcelona Debating Society</strong>. Aprenem a parlar en públic, a
-        argumentar i a pensar de manera crítica debatent en format <strong>Parlament Britànic</strong>
-        sobre els temes que mouen el món.
-      </p>
-      <div class="hero__actions">
-        <a href="#curs" class="btn btn--primary" data-i18n="hero.btnApunta">Apunta't al curs introductori</a>
-        <a href="#debat" class="btn btn--ghost" data-i18n="hero.btnDebat">Com funciona el debat BP?</a>
+      <div class="hero__text">
+        <p class="hero__eyebrow" data-i18n="hero.eyebrow"><strong>Club de debat</strong> BP de la Universitat Pompeu Fabra</p>
+        <h1 class="hero__title" data-i18n="hero.title">Parla.<br />Convenç.<br />Guanya.</h1>
+        <p class="hero__lead" data-i18n="hero.lead">
+          Som la <strong>Barcelona Debating Society</strong>. Aprenem a parlar en públic, a
+          argumentar i a pensar de manera crítica debatent en format <strong>Parlament Britànic</strong>
+          sobre els temes que mouen el món.
+        </p>
+        <p class="hero__schedule" data-i18n="hero.schedule">📅 Cada dijous a les 18:00 al Campus de la Ciutadella</p>
+        <div class="hero__actions">
+          <a href="#curs" class="btn btn--primary" data-i18n="hero.btnApunta">Apunta't al curs introductori</a>
+          <a href="#debat" class="btn btn--ghost" data-i18n="hero.btnDebat">Com funciona el debat BP?</a>
+        </div>
+        <div class="hero__stats">
+          <div><span class="stat__num">10+</span><span class="stat__lbl" data-i18n="hero.s1">anys debatint</span></div>
+          <div><span class="stat__num">1</span><span class="stat__lbl" data-i18n="hero.s2">tarda/setmana</span></div>
+          <div><span class="stat__num">3</span><span class="stat__lbl" data-i18n="hero.s3">idiomes: CAT · ESP · ENG</span></div>
+        </div>
       </div>
-      <div class="hero__stats">
-        <div><span class="stat__num">10+</span><span class="stat__lbl" data-i18n="hero.s1">anys debatint</span></div>
-        <div><span class="stat__num">1</span><span class="stat__lbl" data-i18n="hero.s2">tarda/setmana</span></div>
-        <div><span class="stat__num">3</span><span class="stat__lbl" data-i18n="hero.s3">idiomes: CAT · ESP · ENG</span></div>
+      <div class="hero__visual">
+        <img class="hero__boca" src="assets/boca.png" alt="Boca cridant en un debat" />
       </div>
     </div>
     <a href="#about" class="hero__scroll" aria-label="Continua">↓</a>
