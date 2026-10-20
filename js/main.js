@@ -260,9 +260,28 @@
     }
   }
 
+  /* ---- calendar: mark events whose date is already in the past ---- */
+  function markPastEvents() {
+    var today = new Date(); today.setHours(0, 0, 0, 0);
+    document.querySelectorAll(".cal-event[data-date]").forEach(function (ev) {
+      var d = new Date(ev.getAttribute("data-date") + "T23:59:59");
+      if (d < today) {
+        ev.classList.add("is-past");
+        if (!ev.querySelector(".cal-event__past")) {
+          var tag = document.createElement("span");
+          tag.className = "cal-event__past";
+          tag.setAttribute("data-i18n", "cal.past");
+          tag.textContent = "Fet";
+          ev.querySelector(".cal-event__body").appendChild(tag);
+        }
+      }
+    });
+  }
+
   /* ---- boot ---- */
   buildMocions();
   initCarousel({ root: "mocCarousel", track: "mocTrack", prev: "mocPrev", next: "mocNext", dots: "mocDots", delay: 6000, resumeDelay: 30000 });
+  markPastEvents();         // add is-past + "Fet" tag before translating
   applyLang(window.__lang); // fills static text + renders BP + mocions
   setupReveal();
 })();
